@@ -15,6 +15,7 @@ body {
     padding: 160px 140px;
     background-color: black;
     opacity: 0.7;
+    font-size: 35px;
 }
 
 .banner-title {
@@ -83,14 +84,15 @@ body {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+
 }
 
 .item {
     text-align: left;
     cursor: pointer;
-    padding: 10px 20px;
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
+    padding: 10px 20px;
     margin-right: 30px;
 }
 
@@ -109,6 +111,7 @@ body {
     background: rgb(236, 236, 211);
     border-radius: 5px;
     padding: 10px 20px;
+    margin-right: 30px;
 }
 
 .Blog-section {
@@ -163,4 +166,62 @@ body {
     cursor: pointer;
     border-color: orangered;
     margin-top: 20px;
+}
+
+#depend-blog {
+    display: flex;
+    margin-top: 150px;
+    padding: 0px 20px;
+}
+
+.half-width {
+    width: 50%;
+    font-size: 25px;
+    padding: 0px 20px;
+}
+
+.para2 {
+    font-size: 15px;
+}
+
+.half-width img {
+    height: 300px;
+    width: 400px;
+
+}
+
+.contribute-btn {
+    text-align: center;
+    font-size: 18px;
+    padding: 7px 10px;
+    color: white;
+    background-image: linear-gradient(tomato, red);
+    text-decoration: none;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.update-div {
+    text-align: center;
+    justify-items: center;
+}
+
+.update-header {
+    font-size: 25px;
+}
+
+#email-section {
+    text-align: center;
+    padding: 40px 80px;
+    border-color: violet;
+    border-color: black;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+    opacity: 0.9;
 }
