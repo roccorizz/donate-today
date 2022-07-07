@@ -201,21 +201,35 @@ body {
     border: 0px;
 }
 
+#update-section {
+    margin-top: 100px;
+}
+
 .update-div {
     text-align: center;
     justify-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.update-header {
-    font-size: 25px;
-}
 
-#email-section {
+.email-section {
     text-align: center;
-    padding: 40px 80px;
+    justify-content: center;
+    padding: 50px;
     border-color: violet;
     border-color: black;
     margin-top: 10px;
+    display: flex;
+
+}
+
+.subscribe-btn {
+    padding: 10px;
+    background-image: linear-gradient(tomato, red);
+    border-radius: 5px;
+    color: whitesmoke;
+    border: 0px;
 }
 
 footer {
